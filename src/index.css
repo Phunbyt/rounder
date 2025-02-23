@@ -1,0 +1,26 @@
+:root {
+  font-family: PPTelegraf, Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+
+  color-scheme: light dark;
+  color: #ffffffdd;
+  background-color: #111;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "MonumentExtended";
+  src: url("./assets/fonts/MonumentExtended-Ultrabold.otf") format("opentype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "PPTelegraf";
+  src: url("./assets/fonts/PPTelegraf-Regular.otf") format("opentype");
+  font-weight: 900;
+}
