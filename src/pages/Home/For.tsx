@@ -1,5 +1,5 @@
-import { Box, Container } from "@mui/material";
-import React from "react";
+import { Container } from "@mui/material";
+
 import ForSection from "../../components/ForSection/ForSection";
 import { forSectionData } from "../../components/ForSection/forSectionData";
 

@@ -6,7 +6,6 @@ import {
   AppBar,
   Box,
   Drawer,
-  Typography,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import NavList from "./NavList";
@@ -22,7 +21,7 @@ const pages = [
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
-  const toggleDrawer = (newOpen) => () => {
+  const toggleDrawer = (newOpen: boolean) => () => {
     setOpen(newOpen);
   };
 

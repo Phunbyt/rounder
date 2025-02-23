@@ -4,6 +4,15 @@ import CustomButton from "../Button/Button";
 import List from "@mui/joy/List";
 import { ListItem } from "@mui/joy";
 
+interface ForSectionProps {
+  reverse: boolean;
+  headerText: string;
+  bodyText: string;
+  listValues: string[];
+  buttonText: string;
+  imageUrl: string;
+}
+
 const ForSection = ({
   reverse,
   headerText,
@@ -11,7 +20,7 @@ const ForSection = ({
   listValues,
   buttonText,
   imageUrl,
-}) => {
+}: ForSectionProps) => {
   return (
     <Box
       sx={{

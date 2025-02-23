@@ -1,8 +1,14 @@
-import { Box, Stack } from "@mui/material";
-import React from "react";
+import { Box } from "@mui/material";
+
 import { BodyText, HeaderText } from "../Text";
 
-const WhyCard = ({ icon, headerText, bodyText }) => {
+interface WhyCardProps {
+  icon: string;
+  headerText: string;
+  bodyText: string;
+}
+
+const WhyCard = ({ icon, headerText, bodyText }: WhyCardProps) => {
   return (
     <Box>
       <Box

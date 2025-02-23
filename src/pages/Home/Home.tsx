@@ -1,4 +1,3 @@
-import { Container } from "@mui/material";
 import Hero from "./Hero";
 import Why from "./Why";
 import For from "./For";
@@ -12,9 +11,7 @@ const Home = () => {
       <Why />
       <For />
       <Ready />
-      <Bottom /> 
-      {/* 
-      */}
+      <Bottom />
     </>
   );
 };

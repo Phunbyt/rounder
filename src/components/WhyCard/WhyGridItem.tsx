@@ -1,7 +1,22 @@
-import React from "react";
 import Grid from "@mui/material/Grid2";
+import { ReactNode } from "react";
 
-const WhyGridItem = ({ children, top, bottom, right, left }) => {
+
+interface WhyGridItemProps {
+  children: ReactNode;
+  top: boolean;
+  bottom: boolean;
+  right: boolean;
+  left: boolean;
+}
+
+const WhyGridItem = ({
+  children,
+  top,
+  bottom,
+  right,
+  left,
+}: WhyGridItemProps) => {
   return (
     <Grid
       size={6}
