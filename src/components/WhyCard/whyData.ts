@@ -7,9 +7,9 @@ export const whyDataTop = [
     right: true,
     left: false,
     icon: activity,
-    headerText: "Predictable Commutes",
+    headerText: "Predictable Delivery Time",
     bodyText:
-      "RoundeR offers a reliable service that makes planning your journeys effortless.",
+      "Know exactly when your produce will arrive—no delays, no surprises.",
   },
   {
     top: false,
@@ -17,11 +17,10 @@ export const whyDataTop = [
     right: false,
     left: true,
     icon: clock,
-    headerText: "Time-Based Rides",
+    headerText: "Safe and Reliable Tracking",
     bodyText:
-      "Our time-based ride model ensures you get to your destination promptly without unnecessary delays.",
+      "Track your goods in real time with guaranteed safety at every mile.",
   },
- 
 ];
 export const whyDataBottom = [
   {
@@ -32,7 +31,7 @@ export const whyDataBottom = [
     icon: walletMoney,
     headerText: "Lower Costs",
     bodyText:
-      "Affordable transportation shouldn’t compromise on quality. With RoundeR, you enjoy premium rides at budget-friendly rates.",
+      "Enjoy budget-friendly transport without compromising quality or speed.",
   },
   {
     top: true,
@@ -41,7 +40,6 @@ export const whyDataBottom = [
     left: true,
     icon: verify,
     headerText: "Service Reliability",
-    bodyText:
-      "Count on us for consistent, high-quality service every time you ride.",
+    bodyText: "Count on consistent, dependable service for every delivery.",
   },
 ];

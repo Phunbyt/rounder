@@ -25,14 +25,16 @@ const Ready = () => {
           }}
         >
           <HeaderText
-            text={"Ready to ride with RoundeR?"}
+            text={"Ready to work with RoundeR?"}
             style={{
               fontSize: { xs: "1.5rem", sm: "1.8rem", md: "2rem" }, // Responsive font size
               marginBottom: { xs: "1rem", sm: "1.5rem" }, // Responsive margin
             }}
           />
           <BodyText
-            text={"Sign up now and experience transportation like never before"}
+            text={
+              "Sign up and experience eco - friendly agro-logistics like never before"
+            }
             style={{
               fontSize: { xs: "0.9rem", sm: "1rem", md: "1.2rem" }, // Responsive font size
               marginBottom: { xs: "1.5rem", sm: "2rem", md: "3rem" }, // Responsive margin
@@ -52,11 +54,11 @@ const Ready = () => {
         >
           <Box
             sx={{
-              width: { xs: "100%", sm: "200px" }, // Full width on small screens, fixed width on larger screens
+              width: { xs: "100%", sm: "250px" }, // Full width on small screens, fixed width on larger screens
             }}
           >
             <CustomButton
-              text={"Get a Ride"}
+              text={"Book a truck"}
               sx={{
                 padding: { xs: "0.8em", sm: "1em" }, // Responsive padding
                 width: "100%",
@@ -65,11 +67,11 @@ const Ready = () => {
           </Box>
           <Box
             sx={{
-              width: { xs: "100%", sm: "200px" }, // Full width on small screens, fixed width on larger screens
+              width: { xs: "100%", sm: "250px" }, // Full width on small screens, fixed width on larger screens
             }}
           >
             <CustomButton
-              text={"Become a Driver"}
+              text={"Book a consultation"}
               outlined={true}
               sx={{
                 padding: { xs: "0.8em", sm: "1em" }, // Responsive padding

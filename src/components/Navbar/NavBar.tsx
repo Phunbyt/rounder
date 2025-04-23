@@ -14,9 +14,9 @@ import CustomButton from "../Button/Button";
 import { rounderLogo } from "../../assets/images";
 
 const pages = [
-  { name: "Ride", id: "ride" },
-  { name: "Drive", id: "drive" },
-  { name: "About Us", id: "about" },
+  { name: "Booak a truck", id: "ride" },
+  { name: "Consultation", id: "drive" },
+  { name: "Track your truck", id: "about" },
 ];
 
 const NavBar = () => {

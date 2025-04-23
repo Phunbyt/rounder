@@ -8,9 +8,9 @@ import { BodyText } from "../../components/Text";
 
 const Bottom = () => {
   const links = [
-    { id: "ride", title: "Ride" },
-    { id: "drive", title: "Drive" },
-    { id: "about", title: "About Us" },
+    { id: "ride", title: "Book a truck" },
+    { id: "drive", title: "Consultation" },
+    { id: "about", title: "Track your truck" },
   ];
 
   const socialLinks = [
@@ -23,8 +23,8 @@ const Bottom = () => {
   return (
     <Container
       sx={{
-        marginTop: { xs: "3em", sm: "4em", md: "5em" }, // Responsive margin
-        padding: { xs: "1em", sm: "2em", md: "3em" }, // Responsive padding
+        marginTop: { xs: "1em", sm: "2em", md: "3em" }, // Responsive margin
+        padding: { xs: ".6em", sm: "1em", md: "2em" }, // Responsive padding
       }}
     >
       {/* Logo */}
@@ -59,7 +59,7 @@ const Bottom = () => {
           sx={{
             display: "flex",
             justifyContent: "space-between",
-            maxWidth: { xs: "250px", sm: "300px" }, // Responsive max width
+            maxWidth: { xs: "350px", sm: "400px" }, // Responsive max width
             width: "100%",
             gap: { xs: "1em", sm: "2em" }, // Responsive gap between links
           }}

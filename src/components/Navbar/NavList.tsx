@@ -2,9 +2,9 @@ import { Link, Stack } from "@mui/material";
 import CustomButton from "../Button/Button";
 
 const pages = [
-  { name: "Ride", id: "ride" },
-  { name: "Drive", id: "drive" },
-  { name: "About Us", id: "about" },
+  { name: "Booak a truck", id: "ride" },
+  { name: "Consultation", id: "drive" },
+  { name: "Track your truck", id: "about" },
   { name: "Login", id: "login" },
 ];
 

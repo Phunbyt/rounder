@@ -1,28 +1,33 @@
-import { building, lightPole } from "../../assets/images";
+import { plants, tent } from "../../assets/images";
 
 export const forSectionData = [
   {
-    headerText: "For Riders",
-    bodyText: "You enjoy comfortable and affordable rides with us",
+    headerText: "For Farmers",
+    bodyText:
+      "Enjoy convenient and affordable farm to market delivery with us.",
     listValues: [
-      "Enjoy smoother rides with CNG-powered vehicles",
-      "Save more with our competitive pricing structure.",
-      "Accurately predict your trips duration.",
+      "Easy to book and schedule trucks",
+      "Save more with our competitive pricing",
+      "Accurately predict the duration of delivery",
+      "Book a free consultation to know which of our packages is best for you.",
     ],
-    buttonText: "Get a Ride",
-    imageUrl: lightPole,
+    buttonText: "Book a Truck",
+    imageUrl: plants,
     reverse: false,
   },
   {
-    headerText: "For Drivers",
-    bodyText: "We value our drivers as much as our riders.",
+    headerText: "For Middlemen and Exporters",
+    bodyText:
+      "You can enjoy convenient storage and transportation deals tailored specifically to you with us",
     listValues: [
-      "Access to CNG-powered vehicles ensuring better earnings and lower operational costs.",
-      "Enjoy sustainable Partnership that supports your growth",
-      "Benefit from transparent policies that ensure fair earnings for your efforts.",
+      "Access to strategic warehousing",
+      "Enjoy a sustainable partnership that supports your growth and business",
+      "Easy to book and schedule trucks",
+      "Accurately predict the duration of delivery",
+      "Book a free consultation to figure out which of our packages work best for you.",
     ],
     buttonText: "Become a driver",
-    imageUrl: building,
+    imageUrl: tent,
     reverse: true,
   },
 ];

@@ -1,6 +1,6 @@
 import { Box, Container } from "@mui/material";
 import { BodyText, HeaderText } from "../../components/Text";
-import { carBridge } from "../../assets/images";
+import { truckLoad } from "../../assets/images";
 import CustomButton from "../../components/Button/Button";
 
 const Hero = () => {
@@ -31,7 +31,7 @@ const Hero = () => {
           }}
         >
           <HeaderText
-            text={"Redefining the Future of Transportation"}
+            text={"Redefining the Future of Agricultural Transportation"}
             style={{
               fontSize: { xs: "1.5rem", sm: "2rem", md: "3rem" }, // Responsive font size
               margin: { xs: "0.5em auto", md: "1em auto" }, // Responsive margin
@@ -39,7 +39,7 @@ const Hero = () => {
           />
           <BodyText
             text={
-              "At RoundeR, we provide a seamless, eco-friendly, and cost-effective transportation experience for both riders and drivers."
+              "At RoundeR we provide a seamless eco-friendly and cost effective alternative for the agricultural supply chain"
             }
             style={{
               fontSize: { xs: "0.9rem", sm: "1rem", md: "1.2rem" }, // Responsive font size
@@ -87,7 +87,7 @@ const Hero = () => {
           <Box
             component="img"
             alt="The house from the offer."
-            src={carBridge}
+            src={truckLoad}
             sx={{
               width: "100%",
               maxWidth: { xs: "300px", sm: "400px", md: "500px" }, // Responsive image size
