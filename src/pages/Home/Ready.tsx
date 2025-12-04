@@ -25,16 +25,14 @@ const Ready = () => {
           }}
         >
           <HeaderText
-            text={"Ready to work with RoundeR?"}
+            text={"Want to know more?"}
             style={{
               fontSize: { xs: "1.5rem", sm: "1.8rem", md: "2rem" }, // Responsive font size
               marginBottom: { xs: "1rem", sm: "1.5rem" }, // Responsive margin
             }}
           />
           <BodyText
-            text={
-              "Sign up and experience eco - friendly agro-logistics like never before"
-            }
+            text={"We’d love to hear from you"}
             style={{
               fontSize: { xs: "0.9rem", sm: "1rem", md: "1.2rem" }, // Responsive font size
               marginBottom: { xs: "1.5rem", sm: "2rem", md: "3rem" }, // Responsive margin
@@ -52,7 +50,7 @@ const Ready = () => {
             alignItems: "center",
           }}
         >
-          <Box
+          {/* <Box
             sx={{
               width: { xs: "100%", sm: "250px" }, // Full width on small screens, fixed width on larger screens
             }}
@@ -64,15 +62,17 @@ const Ready = () => {
                 width: "100%",
               }}
             />
-          </Box>
+          </Box> */}
           <Box
             sx={{
               width: { xs: "100%", sm: "250px" }, // Full width on small screens, fixed width on larger screens
             }}
           >
             <CustomButton
-              text={"Book a consultation"}
-              outlined={true}
+              text={"Contact us"}
+              // outlined={true}
+              color={"#fff"}
+              backgroundColor={"#DE05FF"}
               sx={{
                 padding: { xs: "0.8em", sm: "1em" }, // Responsive padding
                 width: "100%",

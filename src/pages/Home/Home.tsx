@@ -1,19 +1,21 @@
 import Hero from "./Hero";
 import Why from "./Why";
-import For from "./For";
+// import For from "./For";
 import Ready from "./Ready";
-import Bottom from "./Bottom";
+// import Bottom from "./Bottom";
 import Services from "./Services";
+import WhyRounder from "./WhyRounder";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <Services />
+      <WhyRounder />
       <Why />
-      <For />
+      <Services />
+      {/* <For /> */}
       <Ready />
-      <Bottom />
+      {/* <Bottom /> */}
     </>
   );
 };

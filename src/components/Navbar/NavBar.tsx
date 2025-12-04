@@ -1,22 +1,16 @@
-import {
-  Stack,
-  Link,
-  Toolbar,
-  Container,
-  AppBar,
-  Box,
-  Drawer,
-} from "@mui/material";
+import { Stack, Toolbar, Container, AppBar, Box, Drawer } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import NavList from "./NavList";
 import { useState } from "react";
 import CustomButton from "../Button/Button";
 import { rounderLogo } from "../../assets/images";
+import { Link } from "react-router";
 
 const pages = [
-  { name: "Booak a truck", id: "ride" },
-  { name: "Consultation", id: "drive" },
-  { name: "Track your truck", id: "about" },
+  { name: "Home", id: "/" },
+  { name: "Smart Inventory Solutions", id: "/sis" },
+  { name: "About Us", id: "/about" },
+  { name: "FAQs", id: "/faq" },
 ];
 
 const NavBar = () => {
@@ -101,14 +95,17 @@ const NavBar = () => {
           >
             {pages.map((page) => (
               <Link
+                to={page.id}
+                viewTransition
                 key={page.id}
-                sx={{
+                style={{
                   color: "white",
                   textDecoration: "none",
-                  fontSize: { xs: "0.9rem", sm: "1rem", md: "1.1rem" }, // Responsive font size
-                  "&:hover": {
-                    color: "primary.main", // Hover effect
-                  },
+                  // fontSize: { xs: "0.9rem", sm: "1rem", md: "1.1rem" }, // Responsive font size
+                  fontSize: "1rem", // Responsive font size
+                  // "&:hover": {
+                  //   color: "primary.main", // Hover effect
+                  // },
                 }}
               >
                 {page.name}
@@ -125,20 +122,8 @@ const NavBar = () => {
               alignItems: "center",
             }}
           >
-            <Link
-              sx={{
-                color: "white",
-                textDecoration: "none",
-                fontSize: { xs: "0.9rem", sm: "1rem", md: "1.1rem" }, // Responsive font size
-                "&:hover": {
-                  color: "primary.main", // Hover effect
-                },
-              }}
-            >
-              Login
-            </Link>
             <CustomButton
-              text="Sign Up"
+              text="Get Started"
               sx={{
                 padding: { xs: "0.5em 1em", sm: "0.8em 1.5em" }, // Responsive padding
                 fontSize: { xs: "0.9rem", sm: "1rem", md: "1.1rem" }, // Responsive font size

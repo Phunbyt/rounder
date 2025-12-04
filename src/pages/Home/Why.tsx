@@ -1,5 +1,5 @@
 import { Box, Container } from "@mui/material";
-import { BodyText, HeaderText } from "../../components/Text";
+// import { BodyText, HeaderText } from "../../components/Text";
 import Grid from "@mui/material/Grid2";
 import { whyDataBottom, whyDataTop } from "../../components/WhyCard/whyData";
 import WhyGridItem from "../../components/WhyCard/WhyGridItem";
@@ -17,7 +17,7 @@ const Why = () => {
     >
       <Box>
         {/* Header Section */}
-        <Box
+        {/* <Box
           sx={{
             marginBottom: { xs: "1.5em", sm: "2em", md: "3em" }, // Responsive margin
             textAlign: "center",
@@ -37,7 +37,7 @@ const Why = () => {
               fontSize: { xs: "0.9rem", sm: "1rem", md: "1.2rem" }, // Responsive font size
             }}
           />
-        </Box>
+        </Box> */}
 
         {/* Grid Section */}
         <Box
@@ -46,7 +46,7 @@ const Why = () => {
           }}
         >
           {/* Background Blur Effect */}
-          <Box
+          {/* <Box
             sx={{
               position: "absolute",
               height: { xs: "150px", sm: "200px", md: "300px" }, // Responsive height
@@ -59,7 +59,7 @@ const Why = () => {
               background: "rgba(255, 232, 138, 0.21)",
               zIndex: -1, // Ensure it stays behind the content
             }}
-          ></Box>
+          ></Box> */}
 
           {/* Grid Container */}
           <Grid container>

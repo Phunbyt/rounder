@@ -6,20 +6,20 @@ export const whyDataTop = [
     bottom: true,
     right: true,
     left: false,
-    icon: activity,
-    headerText: "Predictable Delivery Time",
+    icon: clock,
+    headerText: "Real-Time Visibility",
     bodyText:
-      "Know exactly when your produce will arrive—no delays, no surprises.",
+      "Gain a unified view of inventory levels across all store locations.",
   },
   {
     top: false,
     bottom: true,
     right: false,
     left: true,
-    icon: clock,
-    headerText: "Safe and Reliable Tracking",
+    icon: walletMoney,
+    headerText: "Automated Alerts",
     bodyText:
-      "Track your goods in real time with guaranteed safety at every mile.",
+      "Instantly detect low stock, expiring items, and active promotions to act faster.",
   },
 ];
 export const whyDataBottom = [
@@ -28,18 +28,19 @@ export const whyDataBottom = [
     bottom: false,
     right: true,
     left: false,
-    icon: walletMoney,
-    headerText: "Lower Costs",
+    icon: verify,
+    headerText: "Smarter Decisions",
     bodyText:
-      "Enjoy budget-friendly transport without compromising quality or speed.",
+      "Use actionable insights to minimize waste, prevent stock-outs, and boost profitability.",
   },
   {
     top: true,
     bottom: false,
     right: false,
     left: true,
-    icon: verify,
-    headerText: "Service Reliability",
-    bodyText: "Count on consistent, dependable service for every delivery.",
+    icon: activity,
+    headerText: "Geo-Targeted Promotions",
+    bodyText:
+      "Enable location-based offers that drive foot traffic and enhance in-store engagement.Enable location-based offers that drive foot traffic and enhance in-store engagement.",
   },
 ];
